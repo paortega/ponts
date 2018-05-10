@@ -1,0 +1,274 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	background: white;
+	
+}
+
+h2, h3{	
+	font-family: 'Schoolbell', cursive;
+	font-size: 35px;
+}
+
+
+/* header */
+header{
+    background: white;
+    opacity: 10;
+    height: 20%;
+}
+
+#logo{
+    background: white;
+    padding-left: 50px;
+}
+
+#logo img{
+    width: 50%;
+}
+
+#nav-bar ul{
+    padding: 40px;
+    margin-right: 10px;
+}
+
+#nav-bar ul li{
+    text-decoration: none;
+    font-family: 'Schoolbell', cursive;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#nav-bar ul li a{
+    color: black;
+    font-weight: bold;
+    transition: color 0.4s;
+}
+
+#nav-bar ul li a:hover{
+    background: none;
+    color: #1d62f5;
+    font-weight: bold;
+}
+
+.boton_1{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 20px;
+    color: black;
+    border-radius: 15px;
+    border: 1.5px solid black;
+  }
+  .boton_1:hover{
+    text-decoration: none;
+    color: #2ba287;
+    border: 1.5px solid #2ba287;
+  }
+
+   #titulo{
+       background: url(../images/dibujo1.png);
+   }
+   #titulo h2{
+       padding-left: 7%;
+   }
+
+
+/* slider */
+.carousel-indicators{
+    top: 30%;
+}
+
+
+/* iconos */
+
+  #top div{
+    padding: 50px 50px;
+}
+
+
+/* linea azul */
+#linea-azul{
+    background: #1d62f5;
+    color: white;
+    height: 60px;
+    vertical-align: middle;
+}
+
+#linea-azul h4{
+    padding-top: 10px;
+}
+
+#boton-azul{
+    padding-top: 14px;
+}
+.boton_1{
+    margin-top: 10px;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 15px;
+    border: 2px solid white;
+  }
+
+  .boton_1:hover{
+      color: black;
+      border: 2px solid black;
+  }
+
+
+
+
+/* contenido */
+
+#home-quienes-somos{
+    background: url(../images/dibujo1.png);
+    padding-top: 5%;
+    font-size: 12px;
+}
+
+#imagen-nens img{
+    border-radius: 50%;
+    width: 45%;
+}
+
+#home-quienes-somos h3{
+    font-size: 2.1em;
+}
+
+#contact-area{
+    padding-bottom: 5%;
+}
+
+#form-voluntari{
+    padding: 3% 5%;
+}
+
+.parrafo-h4{
+    padding-top: 3%;
+    padding-left: 5%;
+}
+
+#radio-apadrinar{
+    padding-left: 18%;
+    padding-top: 1%;
+}
+
+#junta .container{
+    padding-top: 5%;
+}
+
+#junta img{
+    border-radius: 50%;
+    border: 2px;
+}
+
+#a-qui,
+#missio,
+#junta{
+    padding-top: 3%;
+    padding-bottom: 10%;
+}
+
+#parrafo-apadrinar{
+    padding-top: 3%;
+    font-size: 13px;
+    color: #505050;
+}
+
+#lista-missio{
+    list-style: none;
+}
+
+#lista-missio-int{
+    list-style: square;
+    padding-left: 2.5%;
+    font-size: 13px;
+    padding-top: 1%;
+}
+
+#imagen-missio{
+    margin-top: 3%;
+    padding: 5%;
+}
+
+#imagen-a-qui{
+    padding: 4%;
+}
+
+#imagen-missio img,
+#imagen-a-qui img{
+    width: 85%;
+    border-radius: 20%;
+}
+
+
+
+/* footer */
+
+#footer {
+  background: rgba(73,155,234,1);
+	background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(25,84,148,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(25,84,148,1)));
+	background: -webkit-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(25,84,148,1) 100%);
+	background: -o-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(25,84,148,1) 100%);
+	background: -ms-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(25,84,148,1) 100%);
+	background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(25,84,148,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#195494', GradientType=1 ); 
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+#footer a {
+  color: #fff;
+}
+#footer a:hover {
+  text-decoration: none;  
+  color: black;
+}
+#footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 -7.5px;
+}
+#footer ul > li {
+  display: inline-block;
+  margin: 0 7.5px;
+}
+
+
+
+@media screen and (min-width: 480px){
+
+}
+
+
+@media screen and (min-width: 767px){
+
+#home-quienes-somos{
+    height: 350px;
+}
+
+
+#footer .social-icons {
+    font-size: 20px;
+  }
+}
+.form-control {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+
+}
+
+
+
+@media screen and (min-width: 950px){
+}
