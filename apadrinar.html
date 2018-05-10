@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Ajuda a un nen o nena apadrinan a Ponts per la pau">
+<meta name="keywords" content="Ponts per la pau, associacio, ajuda, ponts, pau, igualtat">
+
+<title>Apadrinar | Ponts per la pau</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css"/>
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Catamaran:100|Schoolbell" rel="stylesheet">
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="https://use.fontawesome.com/a898d8030e.js"></script>
+</head>
+
+<body>
+
+    <!-- header -->
+    <div class="container-fluid">
+        <header class="row">
+            <div id="logo" class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                <a href="http://www.pontsperlapau.com"><img src="images/logo-ponts.png" class="img-responsive" alt="logo ponts per la pau"></a>
+            </div>
+
+            <div id="menu-movil" class="navbar-header navbar-inverse">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-bar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+
+            <nav id="nav-bar" class="col-lg-9 col-md-9 col-sm-8 col-xs-12 collapse navbar-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Inici </a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                            Què fem? <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="missio.html">La nostra missió</a></li>
+                            <li><a href="a-qui.html">A quí s'adreça</a></li>
+                            <li><a href="junta.html">Junta</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="voluntari.html">Fes-te voluntari/a</a></li>
+                    <li><a href="abonat.html">Associa't</a></li>
+                    <li><a href="apadrinar.html">Apadrina</a></li>
+                    <li><a href="contacte.html">Contacte</a></li>
+                    <li class="dropdown" style="background:#f2f2f2">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                            Idioma <img src="images/flag/catalan.png"> <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><img src="images/flag/catalan.png">&nbsp;Català</a></li>
+                            <li><a href="es/index.html"><img src="images/flag/spain.png">&nbsp;Castellano</a></li>
+                            <li><a href="en/index.html"><img src="images/flag/english.png">&nbsp;English</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </nav>
+        </header>
+    </div>
+
+
+        <div class="container-fluid" id="titulo">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-header">
+                        <h2> Apadrinar | <small>Ponts per la pau</small></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12" id="parrafo-apadrinar">
+                    <p><b>Apadrinament:</b>
+                    Quan apadrines tens la oportunitat de posar un rostre a la teva ajuda. Gràcies a la teva aportació un nen o nena podrà millorar el seu futur. Doncs li ofereixes una educació, alimentació i una sanitat de qualitat. L’apadrinament que realitza <b>Ponts per la Pau és directe</b>, és a dir, cada padrí permet que un nen o nena vagi a l’escola, disposi dels seus llibres i del seu uniforme, així com també que faci un àpat en l'escola. Aquests ingressos no són destinats a cap altre projecte i cada nen/a té un únic padrí amb nosaltres. I estarà en contacte directe amb el seu Padrí.</p>
+
+                    <p>La teva aportació mensual anirà destinada a la manutenció i/o escolarització del nen que hagis apadrinat. Si va a l’escola, els diners arriben directament al centre per cobrir les seves despeses d’escolarització i un àpat diari.</p>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- formulario -->
+        <form class="form-horizontal" id="form-voluntari" method="post" action="proces-apadrinar.php">
+
+            <div class="form-group" id="radio-apadrinar">
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="opciones" id="op1" value="Una_donació_anual_de_240e" checked>
+                        Una donació anual de 240€
+                    </label>
+                </div>
+
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="opciones" id="op2" value="Una_donació_trimestral_de_60e">
+                        Una donació trimestral de 60€
+                    </label>
+                </div>
+
+                <div class="radio">
+                        <label>
+                            <input type="radio" name="opciones" id="op3" value="Una_donació_mensual_de_20e">
+                            Una donació mensual de 20€
+                        </label>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="name">Nom i cognoms</label>
+                <div class="col-sm-10">
+                <input type="text" class="form-control" id="name" name="nombre" placeholder="Nom i cognoms">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="name">Telèfon</label>
+                <div class="col-sm-10">
+                <input type="text" class="form-control" id="name" name="telefono" placeholder="Telèfon">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="name">Correu electrònic</label>
+                <div class="col-sm-10">
+                <input type="text" class="form-control" id="name" name="email" placeholder="Correu electrònic">
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="name">Domicili</label>
+                <div class="col-sm-10">
+                <textarea class="form-control" rows="5" id="comment" name="direccion" placeholder="Domicili"></textarea>
+                </div>
+            </div> 
+
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="name">Població</label>
+                <div class="col-sm-10">
+                <input type="text" class="form-control" id="name" name="ciudad" placeholder="Població">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="name">Codi Postal</label>
+                <div class="col-sm-10">
+                <input type="text" class="form-control" id="name" name="cp" placeholder="Codi Postal">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-lg-offset-2 col-lg-10">
+                <div class="checkbox">
+                    <label>
+                    <input type="checkbox"> Transferència bancària
+                    </label>
+                    <p><b>IBAN: ES36-2100-0005-9502-01-4315</b><p>	 
+                </div>
+                </div>
+            </div>
+
+            <div class="form-group"> 
+                <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-primary btn-lg btn-send-msg">Enviar</button>
+                </div>
+            </div>
+        </form>
+
+
+          
+
+
+
+
+        <!-- footer -->
+        <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="text-center">
+                        &copy; 2016 Ponts per la pau. Desenvolupat per <a target="_blank" href="http://dizenia.com" title="Dizenia">Dizenia</a>
+                    </p>
+                    
+                    <ul class="social-icons text-center">
+                        <li><a href="https://www.facebook.com/Associaci%C3%B3-Ponts-per-la-Pau-1780617448869395/"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/Pontsperlapau"><i class="fa fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </footer><!--/#footer-->
+
+
+
+
+
+</body>
+
+
+</html>
